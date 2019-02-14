@@ -50,7 +50,7 @@ public class logic {
         builder.append(columns+"\n");
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 10; j++) {
-                builder.append(topics[i] + "," + j + ",");
+                builder.append(topics[i] + "," + (j + 1) + ",");
                 for (int k = 0; k < 7; k++) {
                     builder.append(encuestas_write[i][j][k]+",");
                 }
